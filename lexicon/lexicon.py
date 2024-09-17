@@ -13,5 +13,11 @@ LEXICON_COMMANDS_RU: dict[str, str] = {
 }
 
 INLINE_LEXICON_RU: dict[str, str] = {
-    'button_get_news': 'Узнать новости от Frictionl Games.',
+    'button_news_FG': 'Узнать последние новости от Frictional Games.',
+    'button_news_FS': 'Узнать последние новости от Firefly Studios.',
+}
+
+GAMING_SITES_URLS: dict[str, tuple] = {
+    'Frictional_Games_url': ('https://frictionalgames.com/', 'entry-title', 'entry-date published'),
+    'Firefly_Studios_url': ('https://fireflyworlds.com/news/', 'blog-title', 'entry-date'),
 }
